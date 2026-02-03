@@ -1,2 +1,5 @@
-# QCHPCCC
-Quantum -HPC Convergence into Computing Continuum
+# QCHPCCC Quantum -HPC Convergence into Computing Continuum
+Taking a multidimensional view of a heterogeneous QC-HPC ecosystem, we present code to simulate (using digital twins) a Multiscale HPC system with defined QC and Classical components.
+
+We observe the model "Tight Integration," in which QPUs are co-located with HPC nodes to minimize latency (from milliseconds in cloud-based "Loose Coupling" to microseconds). On the other hand, with respect to the sustainability advantage,  this represents a known vision of using non-Von Neumann resources (QPUs) to handle "exponentially complex" tasks with less total energy than a classical brute-force approach. Also, we observe the Energy Awareness, the operational scaling (when a workload increases, the hybrid system maintains a high index, whereas a purely classical system hits a "hardware saturation limit" more quickly, where efficiency plateaus or declines due to synchronization and communication overhead), and of course the system convergence, it is to say that  by co-locating these resources (Tight Integration), the digital twin reflects the "Multiscale HPC" goal of allocating specific task segments (like optimization or simulations) to the architecture best suited for them.
+
