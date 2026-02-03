@@ -1,3 +1,6 @@
+#Simulation Parameters based into Multiscale HPC analysis 
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -47,8 +50,8 @@ indices_baseline = [simulate_baseline(l) for l in loads]
 
 # Visualization
 plt.figure(figsize=(10, 6))
-plt.plot(loads*100, indices_hybrid, 'g-o', label='Hybrid Architecture (30% Quantum)')
-plt.plot(loads*100, indices_baseline, 'r--', label='Classical HPC Baseline')
+plt.plot(loads*100, indices_hybrid, 'c-o', label='Hybrid Architecture (30% Quantum Elements)')
+plt.plot(loads*100, indices_baseline, 'y-*', label='Classical HPC Baseline')
 plt.title('Digital Twin: Sustainability Index vs System Load')
 plt.xlabel('System Workload (%)')
 plt.ylabel('Sustainability Index (Work/Energy)')
