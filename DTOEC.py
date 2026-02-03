@@ -1,3 +1,4 @@
+#Multidimensional Analysis 
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -23,10 +24,10 @@ fig = plt.figure(figsize=(12, 8))
 ax = fig.add_subplot(111, projection='3d')
 
 # Plot the surface
-surf = ax.plot_surface(R, I, S, cmap='viridis', edgecolor='none', alpha=0.8)
+surf = ax.plot_surface(R, I, S, cmap='cividis', edgecolor='none', alpha=0.8)
 
 # Labels and Titles
-ax.set_title('3D Operational Energy Consumption & Sustainability Model', fontsize=14)
+ax.set_title('Operational Energy Consumption & Sustainability Model', fontsize=14)
 ax.set_xlabel('Computational Scale (Resolution)', fontsize=10)
 ax.set_ylabel('Workload Intensity (Iterations)', fontsize=10)
 ax.set_zlabel('Sustainability Index', fontsize=10)
